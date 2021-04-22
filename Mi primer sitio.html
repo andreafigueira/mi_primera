@@ -73,6 +73,32 @@
                         </tr> 
                     </tbody>
                 </table>
+                <form id="Alta" method="post" action="/editor/anotar.php">
+                    Titulo
+                    <input name="titulo" type="text">
+                    </p>
+                    <p>Autor
+                    <input name="autor" type="text">
+                    </p>
+                    <p>Clase<br>
+                    <label>
+                    <input type="radio" name="clase" value="De texto" id="Clase_t"> Texto</label> 
+                    <label><input type="radio" name="clase" value="De lectura" id="Clase_l"> Lectura
+                    </label></p> 
+                    <p>Tipo<br>
+                    <label>
+                    <input type="checkbox" name="tipoE" value="ebook" id="ebook">Ebook</label>
+                    <label>
+                    <input type="checkbox" name="tipoP" value="papel" id="papel">
+                    Papel</label>
+                    <p>
+                    <label>Más info: 
+                    <input type="url" name="info" id="info">´
+                    </label>
+                    </p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Reset">
+                    </form>
             </article>
         </sectio>
             <aside aling="right">
