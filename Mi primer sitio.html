@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            h1 { -webkit-text-stroke: 2px black; color: rgb(46, 158, 24);font: oblique bold 200% cursive; }
+            .imp  { font-size: x-large; }
+            h2 { -webkit-text-stroke: 2px black; color: rgb(218, 228, 216);font: oblique bold 200% cursive; }
+            .imp  { font-size: x-large; }
+            h3 { -webkit-text-stroke: 2px black; color: rgb(235, 8, 8);font: oblique bold 200% cursive; }
+            .imp  { font-size: xx-large; }
+            body { background-image: url("https://img.freepik.com/foto-gratis/fondo-papel-acuarela-blanco_88281-3969.jpg?size=626&ext=jpg") }
+            h4 { -webkit-text-stroke: 2px black; color: rgb(23, 23, 230);font: oblique bold 150% cursive; }
+            p { font: oblique bold 120% cursive;}
+            p1 {font-family: "Segoe IU", sans-serif;}
+            p2 { font: oblique bold 120% cursive;}
+            p3 { font: oblique bold 100% cursive;}
+            table { font: oblique bold 120% cursive;}
+            thead, tfoot { background: url(leopardskin.jpg); color: white; text-shadow: 1px 1px 1px black;}
+            thead th, tfoot th, tfoot td {background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)); border: 3px solid rgb(236, 26, 36);}
+            tbody tr:nth-child(odd) {background-color: #f3faf4;}
+            tbody tr:nth-child(even) {background-color: #c5cec7;}
+            tbody tr {background-image: url(noise.png);}
+            table {background-color: #3dbd16;}
+            nav { font: oblique bold 120% cursive;color: rgb(12, 12, 14)}
+        
+        </style>
         <meta charset="UTF-8">
         <title>Mi primera página web</title>
         <meta name="Description" content=" "> 
@@ -20,62 +43,60 @@
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
-            <nav><p style="text-align: center;"><a href="https://youtu.be/NBs0RnKnNTE">Los mejores lugares de Italia</a></p></nav>
+            
             <section>
                 <h1>Turismo por Italia</h1>
-                <p>La intención de nuestra página web es ayudar a los visitantes a conocer mejor Italia y tener información acerca del turismo en Italia</p>
+                <p>La intención de nuestra página web es ayudar a los visitantes a conocer <br>mejor Italia y tener información acerca del turismo en Italia</br></p>
             <article>
+            
                 <h2><strong>Lugares para visitar</strong></h2>
-                
+                <p3>
                     <ol>
-                        <il>Positano</il>
-                        <il>Bari</il>
-                        <il>La Costa Amalfitana</il>
+                        <li>Positano</li>
+                        <li>Bari</li>
+                        <li>La Costa Amalfitana</li>
                     </ol> 
-                
-                <h2><strong>Ciudades de Italia</strong></h2>
-                <p>
+                <h3><strong>Ciudades de Italia</strong></h3>
                     <ol>
-                        <il>Roma</il>
-                        <il>Venecia</il>
-                        <il>Florencia</il>
-                        <il>Pisa</il>
-                        <il>Milano</il>
+                        <li>Roma</li>
+                        <li>Venecia</li>
+                        <li>Florencia</il>
+                        <li>Pisa</li>
+                        <li>Milano</li>
                     </ol>
-                </p>
-                <h2><strong>Costumbres</strong></h2>
-                <table>
-                    <h2><strong>Gatronomía Italiana</strong></h2>
-                    <caption>Para comer fuera de casa</caption>
-                    <thead>
+                </p3>
+            <table>
+                <h4><strong>Gatronomía Italiana</strong></h4>
+                    <thead>  
                         <tr>
                            <th>Ciudad</th> 
                            <th>Plato típico</th>
                            <th>Precio</th>
-                        </tr>
+                        </tr> 
                     </thead>
                     <tbody>
                         <tr>
                             <td>Napoli</td>
-                            <td>Plato Típico</td>
-                            <td>Precio</td>   
+                            <td>Sfogliatella</td>
+                            <td>1,30€</td>   
                         </tr>
                         <tr>
                             <td>Milano</td>
-                            <td>Plato Típico</td>
-                            <td>Precio</td>
+                            <td>Arancini</td>
+                            <td>1,50€</td>
                         </tr>
                         <tr>
                             <td>Roma</td>
-                            <td>Plato Típico</td>
-                            <td>Precio</td>
+                            <td>Grattachecca</td>
+                            <td>2,20€</td>
                         </tr> 
                     </tbody>
                 </table>
+            
                 <nav><p style="text-align: center;"><a href="https://youtu.be/NBs0RnKnNTE">Los mejores lugares de Italia</a></p></nav>
                 <h4><strong>Inscríbete</strong></h4>
                 <form id="Alta" method="post" action="/editor/anotar.php">
-                    Nombre
+                    <p>Nombre
                     <input name="nombre" type="text">
                     </p>
                     <p>Apellido
@@ -100,10 +121,10 @@
                     <input type="reset" value="Reset">
                     </form>
             </article>
-        </sectio>
+        </section>
             <aside aling="right">
-                <img src="https://image.freepik.com/vector-gratis/pizza-pizzeria-flyer-vertical-italiano-ingredientes-texto-vista-superior-comida-rapida_114352-189.jpg"border=0 width="450" height="900">
-            </aside>
+               <p> <img src="https://image.freepik.com/vector-gratis/pizza-pizzeria-flyer-vertical-italiano-ingredientes-texto-vista-superior-comida-rapida_114352-189.jpg"border=0 width="450" height="900" class="derecha">
+            </p></aside>
             <footer>
                 <address>
                     Andrea Figueira.<br>
